@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="566dp"
+        android:layout_height="836dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/vector1"
+        android:layout_width="370dp"
+        android:layout_height="637dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector1" />
+
+    <ImageView
+        android:id="@+id/vector2"
+        android:layout_width="398dp"
+        android:layout_height="449dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vector1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vector2" />
+
+    <ImageView
+        android:id="@+id/logoaqua"
+        android:layout_width="280dp"
+        android:layout_height="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/group358" />
+
+    <TextView
+        android:id="@+id/kebaikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="KEBAIKAN"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vector1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/berawal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="BERAWAL"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vector1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/vector1"
+        app:layout_constraintTop_toTopOf="@+id/kebaikan"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/darisini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="DARI SINI"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/berawal"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/terpercaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Terpercaya lebih\n dari 45 tahun"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vector1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/darisini"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <ImageView
+        android:id="@+id/ellipse217"
+        android:layout_width="363dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terpercaya"
+        app:layout_constraintVertical_bias="0.668"
+        app:srcCompat="@drawable/ellipse217" />
+
+    <ImageView
+        android:id="@+id/vector3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/ellipse217"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terpercaya"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vector3" />
+
+    <ImageView
+        android:id="@+id/vector4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terpercaya"
+        app:layout_constraintVertical_bias="0.757"
+        app:srcCompat="@drawable/vector4" />
+
+    <ImageView
+        android:id="@+id/vector6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/vector4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vector1"
+        app:layout_constraintTop_toTopOf="@id/ellipse217"
+        app:layout_constraintVertical_bias="0.57"
+        app:srcCompat="@drawable/vector6" />
+
+    <ImageView
+        android:id="@+id/vector11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/vector4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ellipse217"
+        app:layout_constraintVertical_bias="0.631"
+        app:srcCompat="@drawable/vector11" />
+
+    <ImageView
+        android:id="@+id/vector7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/vector4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ellipse217"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vector7" />
+
+    <ImageView
+        android:id="@+id/vector10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/vector4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ellipse217"
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@drawable/vector10" />
+
+    <ImageView
+        android:id="@+id/vector8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/vector4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ellipse217"
+        app:layout_constraintVertical_bias="0.875"
+        app:srcCompat="@drawable/vector8" />
+
+    <ImageView
+        android:id="@+id/vector9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/vector4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ellipse217"
+        app:layout_constraintVertical_bias="0.848"
+        app:srcCompat="@drawable/vector9" />
+
+    <ImageButton
+        android:id="@+id/buttonlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol"
+        android:onClick="login1"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/ellipse217"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/terpercaya"
+        app:layout_constraintVertical_bias="0.361"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/botolcrop"
+        android:layout_width="256dp"
+        android:layout_height="322dp"
+        app:layout_constraintBottom_toBottomOf="@id/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/darisini"
+        app:layout_constraintVertical_bias="0.567"
+        app:srcCompat="@drawable/botolakua" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
